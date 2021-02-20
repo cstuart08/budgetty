@@ -7,6 +7,8 @@ class Nav extends Component {
     if (!firstName) firstName = 'MISSING'
     if (!lastName) lastName = 'MISSING'
 
+    console.log(firstName)
+
     return (
       <div className="top">
         <div className="title">budgetty</div>
